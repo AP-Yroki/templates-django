@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Место учёбы: {{ student.study_place }}</p>
+    <p>Группа: {{ student.group_num }}</p>
+    <p>Специальность: {{ student.specialization }}</p>
+    <p>Станет после выпуска: {{ student.after_graduation }}</p>
+    <br>
+    <br>
+    <br>
+    {% include 'form.html' %}
+</body>
+
+</html>
